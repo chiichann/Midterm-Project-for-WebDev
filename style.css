@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Jost&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*    START OF NAVIGATION BAR   */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .8rem 4.5rem;
+    z-index: 1;
+    position: fixed;
+    background: #24262b;
+}
+
+.navbar h2{
+    color: hotpink;
+    font-size: 2rem;
+    font-family:'Delicious Handrawn', cursive;
+    font-weight: bolder;
+}
+
+.navbar h2 span{
+    font-family:'Delicious Handrawn', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+#nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 500;
+    color: white;   
+
+}
+
+#nav li a:hover{
+    color: hotpink;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#nav .icons i {
+    margin-left: 20px;
+    color: white;
+}
+
+#nav .icons i:hover {
+    color: hotpink;
+    cursor: pointer;
+}
+
+/*  END OF NAVIGATION BAR*  /
+
+
+/*  START OF HOME   */
+.background{
+    background-image: url("pictures/firstpic.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+.background2nd{
+    background-image: url("pictures/products.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background3rd{
+    background-image: url("pictures/contact.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.80;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.mid h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 35px; 
+}
+
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid hotpink;
+    color: hotpink;
+}
+.btn a:hover{
+    border: 3px solid hotpink;
+    font-weight: bolder;
+}
+/* END OF HOME*/
+
+
+/* START OF ABOUT US*/
+.about{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.heading span{
+    color: hotpink;
+    font-family: 'Lobster', cursive;
+}
+
+.one-cont{
+    width: 500px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.one .one-img{
+    margin-right: 100px;
+}
+
+.one .one-img img{
+    border-radius: 10px;
+    height: 450px;
+}
+
+.one .one-cont{
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.one-cont h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.one-cont p{
+    font-size: 19px;
+}
+
+
+.one-cont button{
+    padding: 7px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+.one-cont button:hover{
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+    background: violet;
+    font-weight: bold;
+}
+
+.one-cont button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.two{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.two-cont{
+    width: 500px;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two .two-img{
+    margin-left: 150px;
+}
+
+.two .two-img img{
+    border-radius: 10px;
+    height: 500px;
+}
+
+.two .two-cont{
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.two-cont h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.two-cont p{
+    font-size: 19px;
+}
+
+
+.two-cont button{
+    padding: 7px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+.two-cont button:hover{
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+    background: violet;
+    font-weight: bold;
+}
+
+.two-cont button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+/*  END OF ABOUT US*    /
+
+
+/*  START OF SHOP    */
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px
+}
+.box{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    height: 410px;
+    background: pink;
+
+}
+
+.box .image{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px; 
+}
+
+.box img{
+    height: 15rem;
+    width: 100%;
+    transition: all linear 0.5s;
+}
+
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box:hover img{
+    opacity: 0;
+}
+
+.box:hover img.hover-img{
+    opacity: 1;
+}
+
+.shop .content{
+    margin: 10px;
+}
+
+.shop .content h3{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.shop .content p{
+    font-size: 15px;
+    width: 190px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.shop .content .price{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background: whitesmoke;
+}
+
+.shop .content:hover .price{
+    border: 1px solid black;
+    background: rgb(248, 214, 222);
+    font-weight: bolder;
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+}
+
+.shop .content .price a{
+    font-size: 15px;
+}
+
+.shop .content .price span{
+    float: right;
+}
+
+.space{
+    margin-bottom: 43px;
+}
+
+/*  END OF SHOP   */
+
+
+/*  VIDEO BACKGROUND */
+.back-video{
+    margin-top: 20px;
+    right: 0;
+    bottom: 0;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*  VIDEO BACKGROUND */
+
+
+/*  START OF CONTACT */
+
+.contact .contact-box{
+    width: 400px;
+    position: absolute;   
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.contact .contact-box form{
+    text-align: end;
+}
+
+.contact .contact-box form .input-field{
+    width: 400px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.contact .contact-box form .input-field:focus{
+    border: 0px;
+    box-shadow: 0 0 5px 5px hotpink;
+}
+
+.contact .contact-box form .text-field{
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align:start;
+    font-size: 18px;
+}
+
+.contact .contact-box form .text-field:focus{
+    border: 0px;
+    box-shadow: 0 0 5px 5px hotpink;
+}
+
+.contact .contact-box form button{
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: hotpink;
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+
+.contact .contact-box form button:hover{
+    background: violet;
+    font-weight: bolder;
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+}
+
+/* END OF CONTACT */
+
+
+/*  END OF FOOTER   */
+.footer{
+    background: #24262b;
+    position: absolute;
+    width: 100%;
+    height: 310px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.footer .row{
+    display: flex;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.footer .footer-col, .footer-col1 h4{
+    color: antiquewhite;
+    margin-top: 45px;
+}
+
+.footer-col{
+    width: 200px;
+}
+
+.footer-col1{
+    margin-left: 30px;
+    width: 200px;
+}
+
+.legal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.legal p{
+    color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.legal a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.social-links a i{
+    margin: 3px;
+    font-size: 20px;
+}
+
+.social-links a i:hover{
+    color: hotpink;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.footer-col a:hover{
+    color: hotpink;
+    padding-left: 20px;
+}
+.right-container form{
+    position: absolute;
+
+}
+ .subscribe{
+    display: flex;
+    margin-left: 75%;
+    margin-top: -160px;
+}
+
+.subscribe form .email{
+    height: 40px;
+    margin-top: 10px;
+    width: 266px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.subscribe form .email:focus{
+    border: 0px;
+    box-shadow: 0 0 5px 5px hotpink;
+    border: none;
+}
+
+.subscribe form button{
+    height: 40px;
+    width: 266px;
+    margin-top: 20px;
+    background: hotpink;
+    border-radius: 5px;
+}
+
+.subscribe form button:hover{
+    background: violet;
+    font-weight: bolder;
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+}
+
+.subscribe h4{
+    color: antiquewhite;
+}
+
+/*  END OF FOOTER   */
+
+

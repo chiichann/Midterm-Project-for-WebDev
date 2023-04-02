@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+body {
+	background: #f3e0e2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+}
+
+.one{
+	position: absolute;
+	margin-bottom: 340px;
+}
+
+.one h1{
+	font-size: 50px;
+	color: hotpink;
+}
+
+.one p{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.btn button {
+	margin-top: 10px;
+	width: 300px;
+	padding: 6px;
+	border-radius: 10px;
+	background: hotpink;
+	font-weight: 500;
+}
+
+button:hover{
+	background: violet;
+    font-weight: bolder;
+    box-shadow: 1px 1px 0px black;
+    cursor: pointer;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	height: 100%;
+	text-align: center;
+}
+
+.enter{
+	padding-top: 100px;
+}
+
+.enter input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 550px;
+	position: absolute;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.log-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+.overlay img{
+    height: 550px;
+    width: auto;
+}
+
+.social-container a {
+	border: 1px solid #b4adad;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	color: rgb(92, 87, 87);
+	margin-bottom: 10px;
+}
+
+.social-container p{
+	padding-top: 50px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.social-container i:hover{
+	color: hotpink;
+}
+
+
+.signup p{
+	font-size: 14px;
+}
+
+.signup a{
+	color: hotpink;
+}
+
+.signup a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
