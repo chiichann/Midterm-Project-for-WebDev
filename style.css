@@ -399,9 +399,9 @@ img.hover-img{
 .contact .contact-box{
     width: 400px;
     position: absolute;   
-    margin-top: 8%;
+    margin-top: 15%;
     justify-content: center;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .contact .contact-box form{
