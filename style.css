@@ -123,17 +123,17 @@ html{
     font-size: 3rem;
     margin-bottom: 35px; 
 }
-
 .btn a{
     text-decoration: none;
-    text-transform: uppercase;
     padding: 0.9rem 1.6rem;
     border: 1px solid hotpink;
     color: hotpink;
 }
 .btn a:hover{
-    border: 3px solid hotpink;
+    border: 1px solid hotpink;
+    box-shadow: 0 0 2px 2px hotpink;
     font-weight: bolder;
+    padding: 1.1rem 1.8rem;
 }
 /* END OF HOME*/
 
@@ -161,6 +161,7 @@ html{
 .one-cont{
     width: 500px;
 }
+
 
 .one{
     display: flex;
@@ -368,7 +369,7 @@ img.hover-img{
 }
 
 .space{
-    margin-bottom: 43px;
+    margin-bottom: 47px;
 }
 
 /*  END OF SHOP   */
@@ -421,8 +422,8 @@ img.hover-img{
 }
 
 .contact .contact-box form .input-field:focus{
-    border: 0px;
-    box-shadow: 0 0 5px 5px hotpink;
+    border: 2px solid black;
+    box-shadow: 0 0 3px 3px hotpink;
 }
 
 .contact .contact-box form .text-field{
@@ -438,8 +439,8 @@ img.hover-img{
 }
 
 .contact .contact-box form .text-field:focus{
-    border: 0px;
-    box-shadow: 0 0 5px 5px hotpink;
+    border: 2px solid black;
+    box-shadow: 0 0 3px 3px hotpink;
 }
 
 .contact .contact-box form button{
@@ -486,9 +487,18 @@ ul{
     list-style: none;
 }
 
-.footer .footer-col, .footer-col1 h4{
+.footer .footer-col1 h4{
     color: antiquewhite;
     margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.footer .footer-col h4{
+    color: antiquewhite;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .footer-col{
