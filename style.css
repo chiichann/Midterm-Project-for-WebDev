@@ -55,7 +55,8 @@ html{
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: 500;
-    color: white;   
+    color: white;
+    transition-duration: .5s;
 
 }
 
@@ -68,6 +69,7 @@ html{
 #nav .icons i {
     margin-left: 20px;
     color: white;
+    transition-duration: .5s;
 }
 
 #nav .icons i:hover {
@@ -126,8 +128,9 @@ html{
 .btn a{
     text-decoration: none;
     padding: 0.9rem 1.6rem;
-    border: 1px solid hotpink;
+    border: 1px solid #ff69b4;
     color: hotpink;
+    transition-duration: .5s;
 }
 .btn a:hover{
     border: 1px solid hotpink;
@@ -201,6 +204,7 @@ html{
     margin-top: 20px;
     background-color: hotpink;
     border: 1px solid black;
+    transition-duration: .5s;
 }
 
 .one-cont button:hover{
@@ -262,6 +266,7 @@ html{
     margin-top: 20px;
     background-color: hotpink;
     border: 1px solid black;
+    transition-duration: .5s;
 }
 
 .two-cont button:hover{
@@ -310,7 +315,7 @@ html{
 .box img{
     height: 15rem;
     width: 100%;
-    transition: all linear 0.5s;
+    transition: all linear 1s;
 }
 
 img.hover-img{
@@ -350,15 +355,23 @@ img.hover-img{
     border-radius: 15px;
     margin-top: 10px;
     background: whitesmoke;
+    transition-duration: .5s;
 }
 
 .shop .content:hover .price{
     border: 1px solid black;
-    background: rgb(248, 214, 222);
+    background: rgb(255, 225, 232);
     font-weight: bolder;
     box-shadow: 1px 1px 0px black;
     cursor: pointer;
+    transition-duration: .5s;
 }
+
+.shop .content:active .price {
+    background-color: rgb(253, 167, 253);
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
 
 .shop .content .price a{
     font-size: 15px;
@@ -460,7 +473,9 @@ img.hover-img{
     font-weight: bolder;
     box-shadow: 1px 1px 0px black;
     cursor: pointer;
+    transition-duration: .5s;
 }
+
 
 /* END OF CONTACT */
 
@@ -532,6 +547,7 @@ ul{
 .social-links a i{
     margin: 3px;
     font-size: 20px;
+    transition-duration: .5s;
 }
 
 .social-links a i:hover{
@@ -544,6 +560,7 @@ ul{
 .footer-col a:hover{
     color: hotpink;
     padding-left: 20px;
+    transition-duration: .5s;
 }
 .right-container form{
     position: absolute;
@@ -582,6 +599,7 @@ ul{
     font-weight: bolder;
     box-shadow: 1px 1px 0px black;
     cursor: pointer;
+    transition-duration: .5s
 }
 
 .subscribe h4{
